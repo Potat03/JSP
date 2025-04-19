@@ -1,0 +1,64 @@
+.bestSell-txt{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: var(--font1);
+}
+
+.partner-txt{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: var(--font1);
+}
+
+.mainPage-partner{
+    padding: 48px 0 100px 0;
+}
+
+.mainPage-partner .carousel-item img{
+    height: 100px;
+    object-fit: contain;
+}
+
+.bestSell-area .row{
+    text-align: center;
+}
+
+.prod-pic{
+    padding-bottom: 15px;
+    border-bottom: 1px solid darkkhaki;
+}
+
+.bestSell-prod{
+    margin: 20px;
+    border: 1px solid darkkhaki;
+    border-radius: 20px;
+}
+
+.mainPage-join{
+    background-color: #FFEFB7;
+    position: relative;
+}
+
+.joinTxt-area{
+    margin: 50px 50px 50px 110px;    
+    font-family: var(--font1);
+    letter-spacing: 2px;
+}
+
+.joinbtn button{
+    padding: 10px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-family: var(--font1);
+    border: none;
+    width: 40%;
+    background-color: #FFCA0F;
+}
+
+.joinPic-cat{
+    height: 345px;
+    position: absolute;
+    right: 0;
+    bottom: 1px;
+    pointer-events: none;
+}
