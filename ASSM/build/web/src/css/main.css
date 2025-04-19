@@ -1,0 +1,163 @@
+/* font */
+@font-face {
+    font-family: 'Castoro Titling';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/CastoroTitling-Regular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Mustochio';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Mustachio.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Paperboard';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Paperboard.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'VelomiaVanora';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/VelomiaVanora.ttf) format('ttf');
+}
+
+:root {
+    --peachColor: #F97561;
+    --greenColor: #41756C;
+    --yellowColor: #FFCA0F;
+    --beigeColor: #FFEFB7;
+    --font1: "Castoro Titling";
+    --font2: "Mustochio";
+    --font3: "Paperboard";
+    --font4: "VelomiaVanora";
+}
+
+/* ------------------- */
+/* PAGE HEADER */
+.pageHeader{
+    background-color: white;
+}
+
+.page-upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+    border-color: lightgray;
+}
+
+.form-control{
+    font-family: var(--font1);
+    text-align: center;
+}
+
+.shopLogo{
+    height: 80px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+.userLogo{
+    height: 100px;
+}
+
+.nav-left{
+    border-right: 1px solid;
+    border-color: lightgray;
+}
+
+.pageHeader nav .container{
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.pageHeader nav .navbar-collapse{
+    flex-grow: unset;
+}
+
+.pageHeader .navbar{
+    padding-bottom: 0;
+}
+
+.navItem-area{
+    display: flex;
+    font-family: var(--font1);
+}
+.navItem-area div li{
+    padding: 0 10px 0 10px;    
+    cursor: pointer;
+}
+
+/* PAGE FOOTER */
+
+.pageFooter{
+    padding-top: 50px;
+    background-color: white;
+}
+
+.page-Footer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+}
+
+.footerShopLogo{
+    height: 140px;
+    border-radius: 50%;
+}
+
+.footerPaymentItem ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerSocialItem .fa-brands{
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+
+.page-copyright{
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.footerNav, .footerLegal, .footerSocial{
+    font-family: var(--font1);
+    letter-spacing: 1px;
+}
+
+.footerPaymentItem img{
+    height: 30px;
+}
+
+.footerNavItem p{
+    cursor: pointer;
+}
+
+.footerLegalItem p{
+    cursor: pointer;
+}
+
+.footerSocialItem div{
+    cursor: pointer; 
+    align-items: center;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.footerSocialItem div a{
+    text-decoration: none;
+    color: black;
+}
+

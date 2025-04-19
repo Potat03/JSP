@@ -1,0 +1,140 @@
+/* Nav Part */
+.admin-logo{
+    width: 100%;
+}
+
+.admin-right{
+    padding: 0 0 0 20px;
+    align-items: end;
+    display: grid;
+}
+
+.nav-link{
+    align-items: center;
+}
+
+.nav-link.active{
+    border-radius: 25px;
+    background-color: #F1F1F1;
+}
+
+
+/* --------- */
+
+body{
+    background-color: #F1F1F1;
+    height: 100%;
+}
+
+
+/* F97561 peach */
+/* 41756C green */
+/* FFCA0F yellow */
+/* FFEFB7 another beige (avatar color)*/
+
+
+/* PAGE HEADER */
+.navigate{
+    background-color: #FFFAF6;
+}
+
+.user-message{
+    color: grey;
+    opacity: 0.8
+}
+
+.nav-link{
+    display: flex;
+    padding: 10px 30px;
+}
+
+.nav-icon{
+    min-width: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-text{
+    flex-grow: 1;
+    text-align: left;
+    align-self: center;
+    padding-left: 15px;
+}
+
+.page-upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+    border-color: lightgray;
+}
+
+.shopLogo{
+    height: 100px;
+    border-radius: 50%;
+}
+
+.userLogo{
+    height: 100px;
+}
+
+/* .pageHeader .navbar-collapse{
+    flex-grow: unset;
+} */
+
+.nav-left{
+    border-right: 1px solid;
+    border-color: lightgray;
+}
+
+.pageHeader nav .container{
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.pageHeader nav .navbar-collapse{
+    flex-grow: unset;
+}
+
+.navItem-area{
+    display: flex;
+
+}
+.navItem-area div li{
+    padding: 0 10px 0 10px;
+}
+
+/* PAGE FOOTER */
+
+.pageFooter{
+    padding-top: 50px;
+    background-color: #FFFAF6;
+}
+
+.page-Footer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+}
+
+.footerShopLogo{
+    height: 140px;
+    border-radius: 50%;
+}
+
+.footerPaymentItem ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerSocialItem .fa-brands{
+    margin-right: 30px;
+}
+
+.page-copyright{
+    justify-content: space-between;
+    padding: 20px 0px;
+}
